@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC0B8BCB1F25E1FE00CE7D2D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0B8BCA1F25E1FE00CE7D2D /* DetailViewController.swift */; };
+		DC0B8BCD1F26089600CE7D2D /* ReceptaDetallVistaCelaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0B8BCC1F26089600CE7D2D /* ReceptaDetallVistaCelaTableViewCell.swift */; };
+		DC51F43D1F0CF77B00E5C2E1 /* TotaReceptaCela.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC51F43C1F0CF77B00E5C2E1 /* TotaReceptaCela.swift */; };
+		DC7DE3D91F0A43B9004ED827 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7DE3D81F0A43B9004ED827 /* AppDelegate.swift */; };
+		DC7DE3DB1F0A43B9004ED827 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7DE3DA1F0A43B9004ED827 /* ViewController.swift */; };
+		DC7DE3DE1F0A43B9004ED827 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC7DE3DC1F0A43B9004ED827 /* Main.storyboard */; };
+		DC7DE3E01F0A43B9004ED827 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC7DE3DF1F0A43B9004ED827 /* Assets.xcassets */; };
+		DC7DE3E31F0A43B9004ED827 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC7DE3E11F0A43B9004ED827 /* LaunchScreen.storyboard */; };
+		DC7DE3EE1F0A43B9004ED827 /* MevesReceptesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7DE3ED1F0A43B9004ED827 /* MevesReceptesTests.swift */; };
+		DC7DE3F91F0A43BA004ED827 /* MevesReceptesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7DE3F81F0A43BA004ED827 /* MevesReceptesUITests.swift */; };
+		DC7DE4071F0A482E004ED827 /* Recepta.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7DE4061F0A482E004ED827 /* Recepta.swift */; };
+		DC7DE4091F0A6EF0004ED827 /* SingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7DE4081F0A6EF0004ED827 /* SingleViewController.swift */; };
+		DC7DE40B1F0A7328004ED827 /* ReceptaCela.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7DE40A1F0A7328004ED827 /* ReceptaCela.swift */; };
+		DC80DD4D1F29DB31007C105C /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC80DD4C1F29DB31007C105C /* ReviewViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC7DE3EA1F0A43B9004ED827 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC7DE3CD1F0A43B9004ED827 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC7DE3D41F0A43B9004ED827;
+			remoteInfo = MevesReceptes;
+		};
+		DC7DE3F51F0A43BA004ED827 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC7DE3CD1F0A43B9004ED827 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC7DE3D41F0A43B9004ED827;
+			remoteInfo = MevesReceptes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC0B8BCA1F25E1FE00CE7D2D /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		DC0B8BCC1F26089600CE7D2D /* ReceptaDetallVistaCelaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceptaDetallVistaCelaTableViewCell.swift; sourceTree = "<group>"; };
+		DC51F43C1F0CF77B00E5C2E1 /* TotaReceptaCela.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TotaReceptaCela.swift; sourceTree = "<group>"; };
+		DC7DE3D51F0A43B9004ED827 /* MevesReceptes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MevesReceptes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC7DE3D81F0A43B9004ED827 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC7DE3DA1F0A43B9004ED827 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC7DE3DD1F0A43B9004ED827 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC7DE3DF1F0A43B9004ED827 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC7DE3E21F0A43B9004ED827 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC7DE3E41F0A43B9004ED827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC7DE3E91F0A43B9004ED827 /* MevesReceptesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MevesReceptesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC7DE3ED1F0A43B9004ED827 /* MevesReceptesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MevesReceptesTests.swift; sourceTree = "<group>"; };
+		DC7DE3EF1F0A43B9004ED827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC7DE3F41F0A43BA004ED827 /* MevesReceptesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MevesReceptesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC7DE3F81F0A43BA004ED827 /* MevesReceptesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MevesReceptesUITests.swift; sourceTree = "<group>"; };
+		DC7DE3FA1F0A43BA004ED827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC7DE4061F0A482E004ED827 /* Recepta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recepta.swift; sourceTree = "<group>"; };
+		DC7DE4081F0A6EF0004ED827 /* SingleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleViewController.swift; sourceTree = "<group>"; };
+		DC7DE40A1F0A7328004ED827 /* ReceptaCela.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceptaCela.swift; sourceTree = "<group>"; };
+		DC80DD4C1F29DB31007C105C /* ReviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC7DE3D21F0A43B9004ED827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC7DE3E61F0A43B9004ED827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC7DE3F11F0A43BA004ED827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC7DE3CC1F0A43B9004ED827 = {
+			isa = PBXGroup;
+			children = (
+				DC7DE3D71F0A43B9004ED827 /* MevesReceptes */,
+				DC7DE3EC1F0A43B9004ED827 /* MevesReceptesTests */,
+				DC7DE3F71F0A43BA004ED827 /* MevesReceptesUITests */,
+				DC7DE3D61F0A43B9004ED827 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC7DE3D61F0A43B9004ED827 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC7DE3D51F0A43B9004ED827 /* MevesReceptes.app */,
+				DC7DE3E91F0A43B9004ED827 /* MevesReceptesTests.xctest */,
+				DC7DE3F41F0A43BA004ED827 /* MevesReceptesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC7DE3D71F0A43B9004ED827 /* MevesReceptes */ = {
+			isa = PBXGroup;
+			children = (
+				DC7DE3D81F0A43B9004ED827 /* AppDelegate.swift */,
+				DC7DE3DA1F0A43B9004ED827 /* ViewController.swift */,
+				DC7DE4081F0A6EF0004ED827 /* SingleViewController.swift */,
+				DC7DE4061F0A482E004ED827 /* Recepta.swift */,
+				DC7DE3DC1F0A43B9004ED827 /* Main.storyboard */,
+				DC80DD4C1F29DB31007C105C /* ReviewViewController.swift */,
+				DC0B8BCC1F26089600CE7D2D /* ReceptaDetallVistaCelaTableViewCell.swift */,
+				DC0B8BCA1F25E1FE00CE7D2D /* DetailViewController.swift */,
+				DC7DE40A1F0A7328004ED827 /* ReceptaCela.swift */,
+				DC51F43C1F0CF77B00E5C2E1 /* TotaReceptaCela.swift */,
+				DC7DE3DF1F0A43B9004ED827 /* Assets.xcassets */,
+				DC7DE3E11F0A43B9004ED827 /* LaunchScreen.storyboard */,
+				DC7DE3E41F0A43B9004ED827 /* Info.plist */,
+			);
+			path = MevesReceptes;
+			sourceTree = "<group>";
+		};
+		DC7DE3EC1F0A43B9004ED827 /* MevesReceptesTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC7DE3ED1F0A43B9004ED827 /* MevesReceptesTests.swift */,
+				DC7DE3EF1F0A43B9004ED827 /* Info.plist */,
+			);
+			path = MevesReceptesTests;
+			sourceTree = "<group>";
+		};
+		DC7DE3F71F0A43BA004ED827 /* MevesReceptesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC7DE3F81F0A43BA004ED827 /* MevesReceptesUITests.swift */,
+				DC7DE3FA1F0A43BA004ED827 /* Info.plist */,
+			);
+			path = MevesReceptesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC7DE3D41F0A43B9004ED827 /* MevesReceptes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC7DE3FD1F0A43BA004ED827 /* Build configuration list for PBXNativeTarget "MevesReceptes" */;
+			buildPhases = (
+				DC7DE3D11F0A43B9004ED827 /* Sources */,
+				DC7DE3D21F0A43B9004ED827 /* Frameworks */,
+				DC7DE3D31F0A43B9004ED827 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MevesReceptes;
+			productName = MevesReceptes;
+			productReference = DC7DE3D51F0A43B9004ED827 /* MevesReceptes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC7DE3E81F0A43B9004ED827 /* MevesReceptesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC7DE4001F0A43BA004ED827 /* Build configuration list for PBXNativeTarget "MevesReceptesTests" */;
+			buildPhases = (
+				DC7DE3E51F0A43B9004ED827 /* Sources */,
+				DC7DE3E61F0A43B9004ED827 /* Frameworks */,
+				DC7DE3E71F0A43B9004ED827 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC7DE3EB1F0A43B9004ED827 /* PBXTargetDependency */,
+			);
+			name = MevesReceptesTests;
+			productName = MevesReceptesTests;
+			productReference = DC7DE3E91F0A43B9004ED827 /* MevesReceptesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC7DE3F31F0A43BA004ED827 /* MevesReceptesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC7DE4031F0A43BA004ED827 /* Build configuration list for PBXNativeTarget "MevesReceptesUITests" */;
+			buildPhases = (
+				DC7DE3F01F0A43BA004ED827 /* Sources */,
+				DC7DE3F11F0A43BA004ED827 /* Frameworks */,
+				DC7DE3F21F0A43BA004ED827 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC7DE3F61F0A43BA004ED827 /* PBXTargetDependency */,
+			);
+			name = MevesReceptesUITests;
+			productName = MevesReceptesUITests;
+			productReference = DC7DE3F41F0A43BA004ED827 /* MevesReceptesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC7DE3CD1F0A43B9004ED827 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Xavier Castillo";
+				TargetAttributes = {
+					DC7DE3D41F0A43B9004ED827 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = CNKKY3F73L;
+						ProvisioningStyle = Automatic;
+					};
+					DC7DE3E81F0A43B9004ED827 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = CNKKY3F73L;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC7DE3D41F0A43B9004ED827;
+					};
+					DC7DE3F31F0A43BA004ED827 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = CNKKY3F73L;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC7DE3D41F0A43B9004ED827;
+					};
+				};
+			};
+			buildConfigurationList = DC7DE3D01F0A43B9004ED827 /* Build configuration list for PBXProject "MevesReceptes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC7DE3CC1F0A43B9004ED827;
+			productRefGroup = DC7DE3D61F0A43B9004ED827 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC7DE3D41F0A43B9004ED827 /* MevesReceptes */,
+				DC7DE3E81F0A43B9004ED827 /* MevesReceptesTests */,
+				DC7DE3F31F0A43BA004ED827 /* MevesReceptesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC7DE3D31F0A43B9004ED827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC7DE3E31F0A43B9004ED827 /* LaunchScreen.storyboard in Resources */,
+				DC7DE3E01F0A43B9004ED827 /* Assets.xcassets in Resources */,
+				DC7DE3DE1F0A43B9004ED827 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC7DE3E71F0A43B9004ED827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC7DE3F21F0A43BA004ED827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC7DE3D11F0A43B9004ED827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC7DE3DB1F0A43B9004ED827 /* ViewController.swift in Sources */,
+				DC7DE4071F0A482E004ED827 /* Recepta.swift in Sources */,
+				DC7DE4091F0A6EF0004ED827 /* SingleViewController.swift in Sources */,
+				DC7DE40B1F0A7328004ED827 /* ReceptaCela.swift in Sources */,
+				DC7DE3D91F0A43B9004ED827 /* AppDelegate.swift in Sources */,
+				DC0B8BCD1F26089600CE7D2D /* ReceptaDetallVistaCelaTableViewCell.swift in Sources */,
+				DC51F43D1F0CF77B00E5C2E1 /* TotaReceptaCela.swift in Sources */,
+				DC0B8BCB1F25E1FE00CE7D2D /* DetailViewController.swift in Sources */,
+				DC80DD4D1F29DB31007C105C /* ReviewViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC7DE3E51F0A43B9004ED827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC7DE3EE1F0A43B9004ED827 /* MevesReceptesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC7DE3F01F0A43BA004ED827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC7DE3F91F0A43BA004ED827 /* MevesReceptesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC7DE3EB1F0A43B9004ED827 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC7DE3D41F0A43B9004ED827 /* MevesReceptes */;
+			targetProxy = DC7DE3EA1F0A43B9004ED827 /* PBXContainerItemProxy */;
+		};
+		DC7DE3F61F0A43BA004ED827 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC7DE3D41F0A43B9004ED827 /* MevesReceptes */;
+			targetProxy = DC7DE3F51F0A43BA004ED827 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC7DE3DC1F0A43B9004ED827 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC7DE3DD1F0A43B9004ED827 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC7DE3E11F0A43B9004ED827 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC7DE3E21F0A43B9004ED827 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC7DE3FB1F0A43BA004ED827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC7DE3FC1F0A43BA004ED827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC7DE3FE1F0A43BA004ED827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CNKKY3F73L;
+				INFOPLIST_FILE = MevesReceptes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dam.MevesReceptes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DC7DE3FF1F0A43BA004ED827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CNKKY3F73L;
+				INFOPLIST_FILE = MevesReceptes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dam.MevesReceptes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DC7DE4011F0A43BA004ED827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CNKKY3F73L;
+				INFOPLIST_FILE = MevesReceptesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dam.MevesReceptesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MevesReceptes.app/MevesReceptes";
+			};
+			name = Debug;
+		};
+		DC7DE4021F0A43BA004ED827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CNKKY3F73L;
+				INFOPLIST_FILE = MevesReceptesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dam.MevesReceptesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MevesReceptes.app/MevesReceptes";
+			};
+			name = Release;
+		};
+		DC7DE4041F0A43BA004ED827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = CNKKY3F73L;
+				INFOPLIST_FILE = MevesReceptesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dam.MevesReceptesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MevesReceptes;
+			};
+			name = Debug;
+		};
+		DC7DE4051F0A43BA004ED827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = CNKKY3F73L;
+				INFOPLIST_FILE = MevesReceptesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dam.MevesReceptesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MevesReceptes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC7DE3D01F0A43B9004ED827 /* Build configuration list for PBXProject "MevesReceptes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC7DE3FB1F0A43BA004ED827 /* Debug */,
+				DC7DE3FC1F0A43BA004ED827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC7DE3FD1F0A43BA004ED827 /* Build configuration list for PBXNativeTarget "MevesReceptes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC7DE3FE1F0A43BA004ED827 /* Debug */,
+				DC7DE3FF1F0A43BA004ED827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC7DE4001F0A43BA004ED827 /* Build configuration list for PBXNativeTarget "MevesReceptesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC7DE4011F0A43BA004ED827 /* Debug */,
+				DC7DE4021F0A43BA004ED827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC7DE4031F0A43BA004ED827 /* Build configuration list for PBXNativeTarget "MevesReceptesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC7DE4041F0A43BA004ED827 /* Debug */,
+				DC7DE4051F0A43BA004ED827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC7DE3CD1F0A43B9004ED827 /* Project object */;
+}
